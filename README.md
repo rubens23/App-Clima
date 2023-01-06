@@ -13,20 +13,20 @@
 
 ⭐ Esse é um projeto para demonstrar meu conhecimento técnico no desenvolvimento Android nativo com Kotlin. Mais informações técnicas abaixo.
 
-&#x26C5 Aplicativo que mostra o clima atual da localidade onde a pessoa se encontra ou o clima de uma capital de algum país.
+⛅ Aplicativo que mostra o clima atual da localidade onde a pessoa se encontra ou o clima de uma capital de algum país.
 
 </p>
 
 </br>
 
 <p float="left" align="center">
-TELAS DO APLICATIVO. FOQUE EM MOSTRAR O QUE É BONITO E IMPORTANTE NO SEU APLICATIVO
+<img alt="screenshot" width="30%" src="screenshots/screenshot-1.png"/>
+<img alt="screenshot" width="30%" src="screenshots/screenshot-2.png"/>
+<img alt="screenshot" width="30%" src="screenshots/screenshot-3.png"/>
 </p>
 
 ## Download
-BADGE DA PLAYSTORE https://play.google.com/intl/en_us/badges/
-
-Ou faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Você pode ver <a href="https://www.google.com/search?q=como+instalar+um+apk+no+android">aqui</a> como instalar uma APK no seu aparelho android.
+Faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Você pode ver <a href="https://www.google.com/search?q=como+instalar+um+apk+no+android">aqui</a> como instalar uma APK no seu aparelho android.
 
 ## Tecnologias usadas e bibliotecas de código aberto
 
