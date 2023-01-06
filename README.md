@@ -44,15 +44,17 @@ Faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Vo
 
 - Arquitetura - LISTE BREVEMENTE OS COMPONENTES DA SUA ARQUITETURA UTILIZADA
   - MVVM (View - ViewModel - Model)
-  - Comunicação da ViewModel com a View através de LiveData
-  - Comunicação da ViewModel com a Model através de Kotlin Flow
+  - Comunicação da ViewModel com a View através de LiveData e Observers
   - Repositories para abstração da comunidação com a camada de dados.
   
 - Bibliotecas - LISTE TODAS AS BIBLIOTECAS USADAS NO PROJETO, COM LINK E DESCRIÇÃO BREVE DO QUE ELA FAZ
-  - [Retrofit2 & OkHttp3](https://github.com/square/retrofit): Para realizar requisições seguindo o padrão HTTP.
-  - [Glide](https://github.com/bumptech/glide): Para carregamento de imagens e cacheamento das mesmas.
-  - [Timber](https://github.com/JakeWharton/timber): Para registros de logs mais amigáveis que facilitam o debug.
-  - [...]
+  - [Play Services Location](https://mvnrepository.com/artifact/com.google.android.gms/play-services-location?repo=google): Biblioteca do google para lidar com geolocalização.
+  - [Retrofit](https://square.github.io/retrofit/): Biblioteca para fazer requisições HTTP para APIs.
+  - [Gson Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/gson): Biblioteca para converter objetos JSON em objetos JAVA compreendíveis no Android Studio.
+  - [okHttp Logging Interceptor](https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor): Biblioteca que serve para obter Logs mais detalhados das requisições HTTPs.
+  - [Picasso](https://square.github.io/picasso/): Biblioteca para carregar imagens através da url e armazená-las em cache.
+  - [Firebase Analytics](https://firebase.google.com/docs/analytics): Biblioteca para obter estatísticas úteis sobre o uso do app.
+  - [Firebase CrashLytics](https://firebase.google.com/docs/crashlytics): Biblioteca para obter relatórios de erros que ocorrem na execução do app.
 
 ## Arquitetura
 APRESENTE A ARQUITETURA UTILIZADA NO PROJETO
