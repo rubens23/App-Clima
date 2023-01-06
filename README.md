@@ -30,16 +30,17 @@ Faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Vo
 
 ## Tecnologias usadas e bibliotecas de código aberto
 
-- Minimum SDK level COLOQUE AQUI A APK MINIMA
-- [Linguagem Kotlin](https://kotlinlang.org/) OU JAVA SE USAR JAVA
+- Minimum SDK level 21
+- [Linguagem Kotlin](https://kotlinlang.org/)
 
-- Jetpack - LISTE O MÁXIMO DE COMPONENTES DO JETPACK QUE VOCÊ USA
-  - Lifecycle: Observe os ciclos de vida do Android e manipule os estados da interface do usuário após as alterações do ciclo de vida.
-  - ViewModel: Gerencia o detentor de dados relacionados à interface do usuário e o ciclo de vida. Permite que os dados sobrevivam a alterações de configuração, como rotações de tela.
-  - ViewBinding: Liga os componentes do XML no Kotlin através de uma classe que garante segurança de tipo e outras vantagens.
-  - Room: Biblioteca de abstração do banco de dados SQLite que garante segurança em tempo de compilação e facilidade de uso.
-  - Custom Views: View customizadas feitas do zero usando XML.
-  - [...]
+- Componentes da SDK do android que foram utilizados:
+  - Navigation: Navegar entre os fragments de maneira fácil e intuitiva com o gerenciamento automático da
+  backstack, escolha de destinos de cada fragment, passagem entre telas com animações, etc.
+  - Fragment: Os fragments facilitam a separação dos componentes da sua UI, seguem o seu ciclo de vida próprio e o ciclo de vida da activity na qual ele reside sendo uma ótima alternativa para organizar melhor suas UIs.
+  - Dagger Hilt: Biblioteca para injeção de dependências de forma automática, centraliza as dependências que você vai precisar injetar ao longo do seu app e possibilita a criação de singletons que são instanciados uma unica vez e são passados para as classes que necessitam dele.
+  - Lifecycle: Observa os ciclos de vida do Android e permite a alteração da UI de acordo com o ciclo de vida.
+  - ViewModel: Faz a ponte entre a UI e a camada de dados e permite que as telas do seu app sobreviva a alterações de configuração, como as que acontecem quando a tela é rotacionada.
+  - ViewBinding: Liga os componentes do XML no Kotlin através de uma classe que pode ser usada para inflar os componentes da sua view e manipulá-los na sua activity ou fragment.
 
 - Arquitetura - LISTE BREVEMENTE OS COMPONENTES DA SUA ARQUITETURA UTILIZADA
   - MVVM (View - ViewModel - Model)
