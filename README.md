@@ -42,12 +42,12 @@ Faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Vo
   - ViewModel: Faz a ponte entre a UI e a camada de dados e permite que as telas do seu app sobreviva a alterações de configuração, como as que acontecem quando a tela é rotacionada.
   - ViewBinding: Liga os componentes do XML no Kotlin através de uma classe que pode ser usada para inflar os componentes da sua view e manipulá-los na sua activity ou fragment.
 
-- Arquitetura - LISTE BREVEMENTE OS COMPONENTES DA SUA ARQUITETURA UTILIZADA
+- Arquitetura 
   - MVVM (View - ViewModel - Model)
   - Comunicação da ViewModel com a View através de LiveData e Observers
   - Repositories para abstração da comunidação com a camada de dados.
   
-- Bibliotecas - LISTE TODAS AS BIBLIOTECAS USADAS NO PROJETO, COM LINK E DESCRIÇÃO BREVE DO QUE ELA FAZ
+- Bibliotecas 
   - [Play Services Location](https://mvnrepository.com/artifact/com.google.android.gms/play-services-location?repo=google): Biblioteca do google para lidar com geolocalização.
   - [Retrofit](https://square.github.io/retrofit/): Biblioteca para fazer requisições HTTP para APIs.
   - [Gson Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/gson): Biblioteca para converter objetos JSON em objetos JAVA compreendíveis no Android Studio.
