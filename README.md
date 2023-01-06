@@ -13,7 +13,7 @@
 
 ⭐ Esse é um projeto para demonstrar meu conhecimento técnico no desenvolvimento Android nativo com Kotlin. Mais informações técnicas abaixo.
 
-DESCRIÇÃO DO PROJETO FOCADA NAS FEATURES (FUNCIONALIDADES). VOCÊ ESTA VENDENDO SUAS HABILIDADES, NÃO A IDEIA DO SEU APP!
+&#x26C5 Aplicativo que mostra o clima atual da localidade onde a pessoa se encontra ou o clima de uma capital de algum país.
 
 </p>
 
