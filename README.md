@@ -57,15 +57,16 @@ Faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Vo
   - [Firebase CrashLytics](https://firebase.google.com/docs/crashlytics): Biblioteca para obter relatórios de erros que ocorrem na execução do app.
 
 ## Arquitetura
-APRESENTE A ARQUITETURA UTILIZADA NO PROJETO
-**Nome do aplicativo** utiliza a arquitetura MVVM e o padrão de Repositories, que segue as [recomendações oficiais do Google](https://developer.android.com/topic/architecture).
+**App Clima** utiliza a arquitetura MVVM e o padrão de Repositories, que segue as [recomendações oficiais do Google](https://developer.android.com/topic/architecture).
 </br></br>
-ADICIONE UM FLUXOGRAMA DA ARQUITETURA UTILIZADA - https://excalidraw.com/
+<img width="60%" src="screenshots/arquitetura.png">
 <br>
 
 ## API de terceiros
 
-COLOQUE O NOME, LINK E DESCRIÇÃO DAS APIS UTILIZADAS NO PROJETO
+App Clima usa a [Weather API](https://openweathermap.org/api).<br>
+ A Weather API disponibiliza o clima atual de vários lugares do mundo em tempo real. <br>
+ O App Clima também utiliza a API [Rest Countries](https://restcountries.com/). A Rest Countries Api disponibiliza dados (nome, capital, etc) da maioria dos países do mundo. 
 
 ## Features
 
