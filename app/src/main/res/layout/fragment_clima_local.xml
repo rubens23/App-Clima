@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/light_blue"
     android:id="@+id/ref_local_layout"
-    tools:context=".ui.fragments.ClimaLocalFragment">
+    tools:context=".presentation.fragments.ClimaLocalFragment">
 
     <ProgressBar
         android:id="@+id/loading"

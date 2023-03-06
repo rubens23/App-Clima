@@ -6,7 +6,7 @@
     android:background="@color/light_blue"
     android:id="@+id/ref_clima_capital"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.fragments.ClimaCapitalFragment">
+    tools:context=".presentation.fragments.ClimaCapitalFragment">
 
     <ImageView
         android:id="@+id/btn_close_capital_fragment"

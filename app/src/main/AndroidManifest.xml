@@ -19,7 +19,7 @@
         android:theme="@style/Theme.ClimaApp"
         tools:targetApi="31">
         <activity
-            android:name="com.example.climaapp.ui.activities.SplashActivity"
+            android:name="com.example.climaapp.presentation.activities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.climaapp.ui.activities.MainActivity"
+            android:name="com.example.climaapp.presentation.activities.MainActivity"
             android:exported="true" />
     </application>
 
